@@ -1,0 +1,24 @@
+﻿<Window x:Name="winExt" x:Class="DbWPF.Extension"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbWPF"
+        mc:Ignorable="d"
+        Title="Extension" Height="142.5" Width="188" Background="#FF34383B" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen" Icon="images/icon.ico">
+    <Grid Margin="0,0,553,242">
+        <TextBox x:Name="win1Txt" HorizontalAlignment="Left" Height="24" Margin="40,42,-150,-66" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Type extension" HorizontalAlignment="Left" Height="28" Margin="40,14,-150,-42" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.5,0.5" Foreground="White">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.245"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="win1Add" Content="Add" HorizontalAlignment="Left" Height="22" Margin="64,71,-124,-93" VerticalAlignment="Top" Width="60" Click="Button_Click"/>
+
+    </Grid>
+</Window>
