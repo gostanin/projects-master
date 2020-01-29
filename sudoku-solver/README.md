@@ -1,7 +1,11 @@
+### Backtraking algorithm to solve sudoku.
+
 **Input**:
 
 *n*, an integer representing size of Sudoku board. Followed by *w*, the width of the internal region. 
-2 <= n <= 36
+
+2 ⩽ n ⩽ 36
+
 Base 36(0-9, A-Z)
 
 Empty spots are '0'. 
