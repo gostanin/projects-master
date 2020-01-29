@@ -1,11 +1,9 @@
 **Input**:
 
 *n*, an integer representing size of Sudoku board. Followed by *w*, the width of the internal region. 
-
+2 <= n <= 36
 Base 36(0-9, A-Z)
-$$ {asdf}
-2 \leqslant n \leqslant 36
-$$
+
 Empty spots are '0'. 
 
 Finally, a zero to indicate the end of input OR a new n to signal the beginning of a new test case.
